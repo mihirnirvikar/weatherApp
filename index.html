@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/favicon2.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <p class="todayDate">date</p>
+        <h2 class="city">City</h2>
+        <div class="weather-container">
+            <p class="temp">Temp</p>
+            <p class="humidity">Humidity: <span class="humiditySpan"></span></p>
+            <p class="cloud">Cloud: <span class="cloudSpan"></span>%</p>
+            <p class="wind">Wind: <span class="windSpan"></p>
+            <img class="weatherImg" src="" alt="Weather Image">
+        </div>
+
+        <div class="input">
+            <input type="text" id="cityInput" class="cityInput" placeholder="Enter City">
+            <button type="button" class="searchBtn">Search</button>
+        </div>
+    </div>
+    <script src="script.js" ></script>
+</body>
+
+</html>
